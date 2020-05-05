@@ -1,0 +1,637 @@
+{
+  "data": {
+    "numeroContrat": "2060000000417591",
+    "dateEffet": "2019-09-18",
+    "devise": {
+      "code": "31",
+      "meta": null
+    },
+    "duree": 396,
+    "modeDePaiement": {
+      "code": "1",
+      "meta": null
+    },
+    "numeroAgencePrincipale": "1 10162",
+    "periodicite": {
+      "code": "5",
+      "meta": null
+    },
+    "categorie": "CLASSIQUE",
+    "dateTerme": "2019-09-18",
+    "delaideCarence": 24,
+    "optionDeces": "60",
+    "situationDuContrat": {
+      "status": {
+        "code": "1",
+        "meta": null
+      },
+      "sousStatus": {
+        "code": "1",
+        "meta": null
+      },
+      "isEnVigueur": false,
+      "dateSituation": "string"
+    },
+    "assures": [
+      {
+        "dateAdhesion": "2019-09-18",
+        "garantiesChoisies": "bad example",
+        "personne": {
+          "typePersonne": {
+            "code": "14",
+            "meta": null
+          },
+          "numeroClient": 171140,
+          "personne": "171140"
+        },
+        "garantiesComplementaires": [
+          {
+            "numeroGarantie": 1,
+            "codeGarantie": "Code Garantie",
+            "libelle": "libelle",
+            "typeGarantie": {
+              "code": "7",
+              "meta": null
+            },
+            "dateEffetGarantie": "2019-09-18",
+            "dateFinGarantie": "2019-09-18",
+            "capital": {
+              "montant": 9.99,
+              "devise": {
+                "code": "EUR",
+                "meta": null
+              }
+            },
+            "exonerationDePrimes": true,
+            "coefficientCapitalDeces": 3,
+            "coefficientCapitalDecesAccidentDeLaCirculation": 0,
+            "indemniteJournaliere": {
+              "montant": 9.99,
+              "devise": {
+                "code": "EUR",
+                "meta": null
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "produit": {
+      "numeroProduit": "8050",
+      "libelleCommercial": "libelleCommercial example",
+      "codeUdb": {
+        "code": "codeUdb example",
+        "meta": null
+      },
+      "famille": {
+        "code": "1",
+        "meta": null
+      },
+      "sousFamille": {
+        "code": "1",
+        "meta": null
+      },
+      "produitGroupe": false,
+      "produitFlexivie": true,
+      "estRachetable": true,
+      "estArbitrable": true,
+      "est111Bis": true,
+      "garantitCapitalVieMinimum": true,
+      "garanties": [
+        {
+          "code": "12",
+          "libelle": "Garantie Décès",
+          "typeGarantie": {
+            "code": "1",
+            "meta": null
+          },
+          "codeSupport": 24,
+          "typeSupport": "TG"
+        }
+      ]
+    },
+    "beneficiaires": [
+      {
+        "dateSituation": "2019-09-18",
+        "typeBeneficiaire": {
+          "code": "14",
+          "meta": null
+        },
+        "ligneTexte": "Hodor, hodor, hodor. Hodor, hodor. Hodor, hodor, hodor, hodor, hodor, hodor. Hodor, hodor, hodor, hodor. Hodor, hodor, hodor, hodor, hodor. Hodor, hodor, hodor, hodor, hodor. Hodor, hodor, hodor. Hodor, hodor, hodor, hodor, hodor, hodor. Hodor, hodor, hodor, hodor.",
+        "acceptant": false,
+        "personne": {
+          "typePersonne": {
+            "code": "14",
+            "meta": null
+          },
+          "numeroClient": 171140,
+          "personne": "171140"
+        },
+        "numeroOrdre": 0
+      }
+    ],
+    "supportsInvestissements": [
+      {
+        "numeroDeGarantie": 2060,
+        "codeSupport": 2060,
+        "cleDeRepartition": {
+          "taux": 9.99,
+          "unite": {
+            "libelle": "pourcent",
+            "symbole": "%",
+            "facteur100": 100
+          }
+        },
+        "repartition": {
+          "taux": 9.99,
+          "unite": {
+            "libelle": "pourcent",
+            "symbole": "%",
+            "facteur100": 100
+          }
+        },
+        "dateDepartFlexivie": "2019-09-18",
+        "epargneAccumuleeParSupport": {
+          "montant": 9.99,
+          "devise": {
+            "code": "EUR",
+            "meta": null
+          }
+        },
+        "nomFonds": "2060000000417591",
+        "typeSupport": "2060000000417591",
+        "nombreDUc": 396,
+        "codeIsin": "2060000000417591",
+        "tauxDeFraisDeSortie": {
+          "taux": 9.99,
+          "unite": {
+            "libelle": "pourcent",
+            "symbole": "%",
+            "facteur100": 100
+          }
+        },
+        "indemniteDeConjoncture": true,
+        "tauxDeConjoncture": {
+          "taux": 9.99,
+          "unite": {
+            "libelle": "pourcent",
+            "symbole": "%",
+            "facteur100": 100
+          }
+        },
+        "tauxDeReinvestissement": {
+          "taux": 9.99,
+          "unite": {
+            "libelle": "pourcent",
+            "symbole": "%",
+            "facteur100": 100
+          }
+        },
+        "tauxDArbitrage": {
+          "taux": 9.99,
+          "unite": {
+            "libelle": "pourcent",
+            "symbole": "%",
+            "facteur100": 100
+          }
+        },
+        "tauxParticipationAuxBenefices": {
+          "taux": 9.99,
+          "unite": {
+            "libelle": "pourcent",
+            "symbole": "%",
+            "facteur100": 100
+          }
+        },
+        "tauxGaranti": {
+          "taux": 9.99,
+          "unite": {
+            "libelle": "pourcent",
+            "symbole": "%",
+            "facteur100": 100
+          }
+        },
+        "vniDeLEpargne": {
+          "montant": 9.99,
+          "devise": {
+            "code": "EUR",
+            "meta": null
+          }
+        }
+      }
+    ],
+    "epargnes": [
+      {
+        "numeroDeGarantie": 26,
+        "typeGarantie": {
+          "code": "1",
+          "meta": null
+        },
+        "libelleEpargne": "",
+        "epargneAccumuleeParSupport": {
+          "montant": 9.99,
+          "devise": {
+            "code": "EUR",
+            "meta": null
+          }
+        },
+        "tauxGaranti": {
+          "taux": 9.99,
+          "unite": {
+            "libelle": "pourcent",
+            "symbole": "%",
+            "facteur100": 100
+          }
+        }
+      }
+    ],
+    "dateExtractionDonneesGaranties": "2019-09-18",
+    "primeHT": {
+      "montant": 9.99,
+      "devise": {
+        "code": "EUR",
+        "meta": null
+      }
+    },
+    "primeTTC": {
+      "montant": 9.99,
+      "devise": {
+        "code": "EUR",
+        "meta": null
+      }
+    },
+    "montantRachat": {
+      "montant": 9.99,
+      "devise": {
+        "code": "EUR",
+        "meta": null
+      }
+    },
+    "tauxDeFraisDeGestion": {
+      "taux": 9.99,
+      "unite": {
+        "libelle": "pourcent",
+        "symbole": "%",
+        "facteur100": 100
+      }
+    },
+    "referenceExterneContratBil": 0,
+    "referenceExterneClientBil": "",
+    "tauxDeFraisDEntree": {
+      "taux": 9.99,
+      "unite": {
+        "libelle": "pourcent",
+        "symbole": "%",
+        "facteur100": 100
+      }
+    },
+    "montantDisponibleSansPenalites": {
+      "montant": 9.99,
+      "devise": {
+        "code": "EUR",
+        "meta": null
+      }
+    },
+    "capitalDeces": {
+      "montant": {
+        "montant": 9.99,
+        "devise": {
+          "code": "EUR",
+          "meta": null
+        }
+      },
+      "libelle": {
+        "code": "string",
+        "label": "string"
+      }
+    },
+    "capitalDecesInitial": {
+      "montant": {
+        "montant": 9.99,
+        "devise": {
+          "code": "EUR",
+          "meta": null
+        }
+      },
+      "libelle": {
+        "code": "string",
+        "label": "string"
+      }
+    },
+    "capitalDecesActuel": {
+      "montant": {
+        "montant": 9.99,
+        "devise": {
+          "code": "EUR",
+          "meta": null
+        }
+      },
+      "libelle": {
+        "code": "string",
+        "label": "string"
+      }
+    },
+    "capitalVie": {
+      "montant": {
+        "montant": 9.99,
+        "devise": {
+          "code": "EUR",
+          "meta": null
+        }
+      },
+      "libelle": {
+        "code": "string",
+        "label": "string"
+      }
+    },
+    "epargneAccumuleeTotale": {
+      "montant": 9.99,
+      "devise": {
+        "code": "EUR",
+        "meta": null
+      }
+    },
+    "capitalTerme": {
+      "montant": {
+        "montant": 9.99,
+        "devise": {
+          "code": "EUR",
+          "meta": null
+        }
+      },
+      "libelle": {
+        "code": "string",
+        "label": "string"
+      }
+    },
+    "renteAnnuelle": {
+      "montant": {
+        "montant": 9.99,
+        "devise": {
+          "code": "EUR",
+          "meta": null
+        }
+      },
+      "libelle": {
+        "code": "string",
+        "label": "string"
+      }
+    },
+    "mouvements": [
+      {
+        "typeOperation": {
+          "code": "2",
+          "meta": null
+        },
+        "numeroMouvement": 0,
+        "situation": {
+          "code": "string",
+          "label": "string"
+        },
+        "dateSituation": "string",
+        "recouvrement": {
+          "code": "string",
+          "label": "string"
+        },
+        "dateValeurOperation": "2019-09-18",
+        "dateOperation": "2019-09-18",
+        "montantTotalTTC": {
+          "montant": 9.99,
+          "devise": {
+            "code": "EUR",
+            "meta": null
+          }
+        },
+        "montantTotalHT": {
+          "montant": 9.99,
+          "devise": {
+            "code": "EUR",
+            "meta": null
+          }
+        },
+        "dateDebutCouverture": "2019-09-18",
+        "dateFinCouverture": "2019-09-18",
+        "dateEncaissement": "2019-09-18"
+      },
+      {
+        "typeOperation": {
+          "code": "2",
+          "meta": null
+        },
+        "numeroMouvement": 0,
+        "situation": {
+          "code": "string",
+          "label": "string"
+        },
+        "dateSituation": "string",
+        "recouvrement": {
+          "code": "string",
+          "label": "string"
+        },
+        "dateValeurOperation": "2019-09-18",
+        "dateOperation": "2019-09-18",
+        "montantTotalTTC": {
+          "montant": 9.99,
+          "devise": {
+            "code": "EUR",
+            "meta": null
+          }
+        },
+        "montantTotalHT": {
+          "montant": 9.99,
+          "devise": {
+            "code": "EUR",
+            "meta": null
+          }
+        },
+        "ventilations": [
+          {
+            "montantTTC": {
+              "montant": 9.99,
+              "devise": {
+                "code": "EUR",
+                "meta": null
+              }
+            },
+            "montantHT": {
+              "montant": 9.99,
+              "devise": {
+                "code": "EUR",
+                "meta": null
+              }
+            },
+            "montantInvesti": {
+              "montant": 9.99,
+              "devise": {
+                "code": "EUR",
+                "meta": null
+              }
+            },
+            "frais": {
+              "montant": 9.99,
+              "devise": {
+                "code": "EUR",
+                "meta": null
+              }
+            },
+            "nombreDeParts": 8,
+            "vni": 7,
+            "support": {
+              "numeroDeGarantie": 2060,
+              "codeSupport": 2060,
+              "cleDeRepartition": {
+                "taux": 9.99,
+                "unite": {
+                  "libelle": "pourcent",
+                  "symbole": "%",
+                  "facteur100": 100
+                }
+              },
+              "repartition": {
+                "taux": 9.99,
+                "unite": {
+                  "libelle": "pourcent",
+                  "symbole": "%",
+                  "facteur100": 100
+                }
+              },
+              "dateDepartFlexivie": "2019-09-18",
+              "epargneAccumuleeParSupport": {
+                "montant": 9.99,
+                "devise": {
+                  "code": "EUR",
+                  "meta": null
+                }
+              },
+              "nomFonds": "2060000000417591",
+              "typeSupport": "2060000000417591",
+              "nombreDUc": 396,
+              "codeIsin": "2060000000417591",
+              "tauxDeFraisDeSortie": {
+                "taux": 9.99,
+                "unite": {
+                  "libelle": "pourcent",
+                  "symbole": "%",
+                  "facteur100": 100
+                }
+              },
+              "indemniteDeConjoncture": true,
+              "tauxDeConjoncture": {
+                "taux": 9.99,
+                "unite": {
+                  "libelle": "pourcent",
+                  "symbole": "%",
+                  "facteur100": 100
+                }
+              },
+              "tauxDeReinvestissement": {
+                "taux": 9.99,
+                "unite": {
+                  "libelle": "pourcent",
+                  "symbole": "%",
+                  "facteur100": 100
+                }
+              },
+              "tauxDArbitrage": {
+                "taux": 9.99,
+                "unite": {
+                  "libelle": "pourcent",
+                  "symbole": "%",
+                  "facteur100": 100
+                }
+              },
+              "tauxParticipationAuxBenefices": {
+                "taux": 9.99,
+                "unite": {
+                  "libelle": "pourcent",
+                  "symbole": "%",
+                  "facteur100": 100
+                }
+              },
+              "tauxGaranti": {
+                "taux": 9.99,
+                "unite": {
+                  "libelle": "pourcent",
+                  "symbole": "%",
+                  "facteur100": 100
+                }
+              },
+              "vniDeLEpargne": {
+                "montant": 9.99,
+                "devise": {
+                  "code": "EUR",
+                  "meta": null
+                }
+              }
+            },
+            "sensOperation": {
+              "code": "1",
+              "meta": null
+            }
+          }
+        ]
+      }
+    ],
+    "preneur": {
+      "typePersonne": {
+        "code": "14",
+        "meta": null
+      },
+      "numeroClient": 171140,
+      "personne": "171140"
+    },
+    "documents": [
+      "string"
+    ],
+    "codeLangue": {
+      "code": "1",
+      "meta": null
+    },
+    "tauxParticipationAuxBenefices": {
+      "taux": 9.99,
+      "unite": {
+        "libelle": "pourcent",
+        "symbole": "%",
+        "facteur100": 100
+      }
+    },
+    "tauxDeFraisDeSortie": {
+      "taux": 9.99,
+      "unite": {
+        "libelle": "pourcent",
+        "symbole": "%",
+        "facteur100": 100
+      }
+    },
+    "intermediaires": [
+      {
+        "typeIntermediaire": {
+          "code": "",
+          "meta": null
+        },
+        "reseau": "reseau",
+        "code": "ciode",
+        "commissions": [
+          {
+            "libelle": "bad example",
+            "quotePart": {
+              "taux": 9.99,
+              "unite": {
+                "libelle": "pourcent",
+                "symbole": "%",
+                "facteur100": 100
+              }
+            },
+            "montant": {
+              "montant": 9.99,
+              "devise": {
+                "code": "EUR",
+                "meta": null
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
